@@ -1,0 +1,3802 @@
+[
+  {
+    "id": 0,
+    "exp": 0,
+    "property": [
+      {
+        "property": 1,
+        "value": 470
+      },
+      {
+        "property": 3,
+        "value": 21
+      },
+      {
+        "property": 5,
+        "value": 7
+      },
+      {
+        "property": 8,
+        "value": 100
+      },
+      {
+        "property": 9,
+        "value": 60
+      },
+      {
+        "property": 6,
+        "value": 30
+      },
+      {
+        "property": 7,
+        "value": 10
+      },
+      {
+        "property": 105,
+        "value": 200
+      },
+      {
+        "property": 101,
+        "value": 300
+      },
+      {
+        "property": 11,
+        "value": 0
+      },
+      {
+        "property": 10,
+        "value": 0
+      },
+      {
+        "property": 103,
+        "value": 100
+      },
+      {
+        "property": 104,
+        "value": 100
+      },
+      {
+        "property": 107,
+        "value": 0
+      },
+      {
+        "property": 108,
+        "value": 0
+      },
+      {
+        "property": 110,
+        "value": 0
+      },
+      {
+        "property": 109,
+        "value": 0
+      }
+    ],
+    "standard_insight": 1000,
+    "standard_critical": 1000
+  },
+  {
+    "id": 1,
+    "exp": 1000,
+    "property": [
+      {
+        "property": 1,
+        "value": 470
+      },
+      {
+        "property": 3,
+        "value": 21
+      },
+      {
+        "property": 5,
+        "value": 7
+      },
+      {
+        "property": 8,
+        "value": 100
+      },
+      {
+        "property": 9,
+        "value": 60
+      },
+      {
+        "property": 6,
+        "value": 30
+      },
+      {
+        "property": 7,
+        "value": 10
+      },
+      {
+        "property": 105,
+        "value": 200
+      },
+      {
+        "property": 101,
+        "value": 300
+      },
+      {
+        "property": 11,
+        "value": 0
+      },
+      {
+        "property": 10,
+        "value": 0
+      },
+      {
+        "property": 103,
+        "value": 100
+      },
+      {
+        "property": 104,
+        "value": 100
+      },
+      {
+        "property": 107,
+        "value": 0
+      },
+      {
+        "property": 108,
+        "value": 0
+      },
+      {
+        "property": 110,
+        "value": 0
+      },
+      {
+        "property": 109,
+        "value": 0
+      }
+    ],
+    "standard_insight": 1000,
+    "standard_critical": 1000
+  },
+  {
+    "id": 2,
+    "exp": 2000,
+    "property": [
+      {
+        "property": 1,
+        "value": 470
+      },
+      {
+        "property": 3,
+        "value": 21
+      },
+      {
+        "property": 5,
+        "value": 7
+      },
+      {
+        "property": 8,
+        "value": 100
+      },
+      {
+        "property": 9,
+        "value": 60
+      },
+      {
+        "property": 6,
+        "value": 30
+      },
+      {
+        "property": 7,
+        "value": 10
+      },
+      {
+        "property": 105,
+        "value": 200
+      },
+      {
+        "property": 101,
+        "value": 300
+      },
+      {
+        "property": 11,
+        "value": 0
+      },
+      {
+        "property": 10,
+        "value": 0
+      },
+      {
+        "property": 103,
+        "value": 100
+      },
+      {
+        "property": 104,
+        "value": 100
+      },
+      {
+        "property": 107,
+        "value": 0
+      },
+      {
+        "property": 108,
+        "value": 0
+      },
+      {
+        "property": 110,
+        "value": 0
+      },
+      {
+        "property": 109,
+        "value": 0
+      }
+    ],
+    "standard_insight": 1000,
+    "standard_critical": 1000
+  },
+  {
+    "id": 3,
+    "exp": 3000,
+    "property": [
+      {
+        "property": 1,
+        "value": 470
+      },
+      {
+        "property": 3,
+        "value": 21
+      },
+      {
+        "property": 5,
+        "value": 7
+      },
+      {
+        "property": 8,
+        "value": 100
+      },
+      {
+        "property": 9,
+        "value": 60
+      },
+      {
+        "property": 6,
+        "value": 30
+      },
+      {
+        "property": 7,
+        "value": 10
+      },
+      {
+        "property": 105,
+        "value": 200
+      },
+      {
+        "property": 101,
+        "value": 300
+      },
+      {
+        "property": 11,
+        "value": 0
+      },
+      {
+        "property": 10,
+        "value": 0
+      },
+      {
+        "property": 103,
+        "value": 100
+      },
+      {
+        "property": 104,
+        "value": 100
+      },
+      {
+        "property": 107,
+        "value": 0
+      },
+      {
+        "property": 108,
+        "value": 0
+      },
+      {
+        "property": 110,
+        "value": 0
+      },
+      {
+        "property": 109,
+        "value": 0
+      }
+    ],
+    "standard_insight": 1000,
+    "standard_critical": 1000
+  },
+  {
+    "id": 4,
+    "exp": 4000,
+    "property": [
+      {
+        "property": 1,
+        "value": 470
+      },
+      {
+        "property": 3,
+        "value": 21
+      },
+      {
+        "property": 5,
+        "value": 7
+      },
+      {
+        "property": 8,
+        "value": 100
+      },
+      {
+        "property": 9,
+        "value": 60
+      },
+      {
+        "property": 6,
+        "value": 30
+      },
+      {
+        "property": 7,
+        "value": 10
+      },
+      {
+        "property": 105,
+        "value": 200
+      },
+      {
+        "property": 101,
+        "value": 300
+      },
+      {
+        "property": 11,
+        "value": 0
+      },
+      {
+        "property": 10,
+        "value": 0
+      },
+      {
+        "property": 103,
+        "value": 100
+      },
+      {
+        "property": 104,
+        "value": 100
+      },
+      {
+        "property": 107,
+        "value": 0
+      },
+      {
+        "property": 108,
+        "value": 0
+      },
+      {
+        "property": 110,
+        "value": 0
+      },
+      {
+        "property": 109,
+        "value": 0
+      }
+    ],
+    "standard_insight": 1000,
+    "standard_critical": 1000
+  },
+  {
+    "id": 5,
+    "exp": 5000,
+    "property": [
+      {
+        "property": 1,
+        "value": 470
+      },
+      {
+        "property": 3,
+        "value": 21
+      },
+      {
+        "property": 5,
+        "value": 7
+      },
+      {
+        "property": 8,
+        "value": 100
+      },
+      {
+        "property": 9,
+        "value": 60
+      },
+      {
+        "property": 6,
+        "value": 30
+      },
+      {
+        "property": 7,
+        "value": 10
+      },
+      {
+        "property": 105,
+        "value": 200
+      },
+      {
+        "property": 101,
+        "value": 300
+      },
+      {
+        "property": 11,
+        "value": 0
+      },
+      {
+        "property": 10,
+        "value": 0
+      },
+      {
+        "property": 103,
+        "value": 100
+      },
+      {
+        "property": 104,
+        "value": 100
+      },
+      {
+        "property": 107,
+        "value": 0
+      },
+      {
+        "property": 108,
+        "value": 0
+      },
+      {
+        "property": 110,
+        "value": 0
+      },
+      {
+        "property": 109,
+        "value": 0
+      }
+    ],
+    "standard_insight": 1000,
+    "standard_critical": 1000
+  },
+  {
+    "id": 6,
+    "exp": 6000,
+    "property": [
+      {
+        "property": 1,
+        "value": 470
+      },
+      {
+        "property": 3,
+        "value": 21
+      },
+      {
+        "property": 5,
+        "value": 7
+      },
+      {
+        "property": 8,
+        "value": 100
+      },
+      {
+        "property": 9,
+        "value": 60
+      },
+      {
+        "property": 6,
+        "value": 30
+      },
+      {
+        "property": 7,
+        "value": 10
+      },
+      {
+        "property": 105,
+        "value": 200
+      },
+      {
+        "property": 101,
+        "value": 300
+      },
+      {
+        "property": 11,
+        "value": 0
+      },
+      {
+        "property": 10,
+        "value": 0
+      },
+      {
+        "property": 103,
+        "value": 100
+      },
+      {
+        "property": 104,
+        "value": 100
+      },
+      {
+        "property": 107,
+        "value": 0
+      },
+      {
+        "property": 108,
+        "value": 0
+      },
+      {
+        "property": 110,
+        "value": 0
+      },
+      {
+        "property": 109,
+        "value": 0
+      }
+    ],
+    "standard_insight": 1000,
+    "standard_critical": 1000
+  },
+  {
+    "id": 7,
+    "exp": 7000,
+    "property": [
+      {
+        "property": 1,
+        "value": 470
+      },
+      {
+        "property": 3,
+        "value": 21
+      },
+      {
+        "property": 5,
+        "value": 7
+      },
+      {
+        "property": 8,
+        "value": 100
+      },
+      {
+        "property": 9,
+        "value": 60
+      },
+      {
+        "property": 6,
+        "value": 30
+      },
+      {
+        "property": 7,
+        "value": 10
+      },
+      {
+        "property": 105,
+        "value": 200
+      },
+      {
+        "property": 101,
+        "value": 300
+      },
+      {
+        "property": 11,
+        "value": 0
+      },
+      {
+        "property": 10,
+        "value": 0
+      },
+      {
+        "property": 103,
+        "value": 100
+      },
+      {
+        "property": 104,
+        "value": 100
+      },
+      {
+        "property": 107,
+        "value": 0
+      },
+      {
+        "property": 108,
+        "value": 0
+      },
+      {
+        "property": 110,
+        "value": 0
+      },
+      {
+        "property": 109,
+        "value": 0
+      }
+    ],
+    "standard_insight": 1000,
+    "standard_critical": 1000
+  },
+  {
+    "id": 8,
+    "exp": 8000,
+    "property": [
+      {
+        "property": 1,
+        "value": 470
+      },
+      {
+        "property": 3,
+        "value": 21
+      },
+      {
+        "property": 5,
+        "value": 7
+      },
+      {
+        "property": 8,
+        "value": 100
+      },
+      {
+        "property": 9,
+        "value": 60
+      },
+      {
+        "property": 6,
+        "value": 30
+      },
+      {
+        "property": 7,
+        "value": 10
+      },
+      {
+        "property": 105,
+        "value": 200
+      },
+      {
+        "property": 101,
+        "value": 300
+      },
+      {
+        "property": 11,
+        "value": 0
+      },
+      {
+        "property": 10,
+        "value": 0
+      },
+      {
+        "property": 103,
+        "value": 100
+      },
+      {
+        "property": 104,
+        "value": 100
+      },
+      {
+        "property": 107,
+        "value": 0
+      },
+      {
+        "property": 108,
+        "value": 0
+      },
+      {
+        "property": 110,
+        "value": 0
+      },
+      {
+        "property": 109,
+        "value": 0
+      }
+    ],
+    "standard_insight": 1000,
+    "standard_critical": 1000
+  },
+  {
+    "id": 9,
+    "exp": 9000,
+    "property": [
+      {
+        "property": 1,
+        "value": 470
+      },
+      {
+        "property": 3,
+        "value": 21
+      },
+      {
+        "property": 5,
+        "value": 7
+      },
+      {
+        "property": 8,
+        "value": 100
+      },
+      {
+        "property": 9,
+        "value": 60
+      },
+      {
+        "property": 6,
+        "value": 30
+      },
+      {
+        "property": 7,
+        "value": 10
+      },
+      {
+        "property": 105,
+        "value": 200
+      },
+      {
+        "property": 101,
+        "value": 300
+      },
+      {
+        "property": 11,
+        "value": 0
+      },
+      {
+        "property": 10,
+        "value": 0
+      },
+      {
+        "property": 103,
+        "value": 100
+      },
+      {
+        "property": 104,
+        "value": 100
+      },
+      {
+        "property": 107,
+        "value": 0
+      },
+      {
+        "property": 108,
+        "value": 0
+      },
+      {
+        "property": 110,
+        "value": 0
+      },
+      {
+        "property": 109,
+        "value": 0
+      }
+    ],
+    "standard_insight": 1000,
+    "standard_critical": 1000
+  },
+  {
+    "id": 10,
+    "exp": 10000,
+    "property": [
+      {
+        "property": 1,
+        "value": 470
+      },
+      {
+        "property": 3,
+        "value": 21
+      },
+      {
+        "property": 5,
+        "value": 7
+      },
+      {
+        "property": 8,
+        "value": 100
+      },
+      {
+        "property": 9,
+        "value": 60
+      },
+      {
+        "property": 6,
+        "value": 30
+      },
+      {
+        "property": 7,
+        "value": 10
+      },
+      {
+        "property": 105,
+        "value": 200
+      },
+      {
+        "property": 101,
+        "value": 300
+      },
+      {
+        "property": 11,
+        "value": 0
+      },
+      {
+        "property": 10,
+        "value": 0
+      },
+      {
+        "property": 103,
+        "value": 100
+      },
+      {
+        "property": 104,
+        "value": 100
+      },
+      {
+        "property": 107,
+        "value": 0
+      },
+      {
+        "property": 108,
+        "value": 0
+      },
+      {
+        "property": 110,
+        "value": 0
+      },
+      {
+        "property": 109,
+        "value": 0
+      }
+    ],
+    "standard_insight": 1000,
+    "standard_critical": 1000
+  },
+  {
+    "id": 11,
+    "exp": 11000,
+    "property": [
+      {
+        "property": 1,
+        "value": 470
+      },
+      {
+        "property": 3,
+        "value": 21
+      },
+      {
+        "property": 5,
+        "value": 7
+      },
+      {
+        "property": 8,
+        "value": 100
+      },
+      {
+        "property": 9,
+        "value": 60
+      },
+      {
+        "property": 6,
+        "value": 30
+      },
+      {
+        "property": 7,
+        "value": 10
+      },
+      {
+        "property": 105,
+        "value": 200
+      },
+      {
+        "property": 101,
+        "value": 300
+      },
+      {
+        "property": 11,
+        "value": 0
+      },
+      {
+        "property": 10,
+        "value": 0
+      },
+      {
+        "property": 103,
+        "value": 100
+      },
+      {
+        "property": 104,
+        "value": 100
+      },
+      {
+        "property": 107,
+        "value": 0
+      },
+      {
+        "property": 108,
+        "value": 0
+      },
+      {
+        "property": 110,
+        "value": 0
+      },
+      {
+        "property": 109,
+        "value": 0
+      }
+    ],
+    "standard_insight": 1000,
+    "standard_critical": 1000
+  },
+  {
+    "id": 12,
+    "exp": 12000,
+    "property": [
+      {
+        "property": 1,
+        "value": 470
+      },
+      {
+        "property": 3,
+        "value": 21
+      },
+      {
+        "property": 5,
+        "value": 7
+      },
+      {
+        "property": 8,
+        "value": 100
+      },
+      {
+        "property": 9,
+        "value": 60
+      },
+      {
+        "property": 6,
+        "value": 30
+      },
+      {
+        "property": 7,
+        "value": 10
+      },
+      {
+        "property": 105,
+        "value": 200
+      },
+      {
+        "property": 101,
+        "value": 300
+      },
+      {
+        "property": 11,
+        "value": 0
+      },
+      {
+        "property": 10,
+        "value": 0
+      },
+      {
+        "property": 103,
+        "value": 100
+      },
+      {
+        "property": 104,
+        "value": 100
+      },
+      {
+        "property": 107,
+        "value": 0
+      },
+      {
+        "property": 108,
+        "value": 0
+      },
+      {
+        "property": 110,
+        "value": 0
+      },
+      {
+        "property": 109,
+        "value": 0
+      }
+    ],
+    "standard_insight": 1000,
+    "standard_critical": 1000
+  },
+  {
+    "id": 13,
+    "exp": 13000,
+    "property": [
+      {
+        "property": 1,
+        "value": 470
+      },
+      {
+        "property": 3,
+        "value": 21
+      },
+      {
+        "property": 5,
+        "value": 7
+      },
+      {
+        "property": 8,
+        "value": 100
+      },
+      {
+        "property": 9,
+        "value": 60
+      },
+      {
+        "property": 6,
+        "value": 30
+      },
+      {
+        "property": 7,
+        "value": 10
+      },
+      {
+        "property": 105,
+        "value": 200
+      },
+      {
+        "property": 101,
+        "value": 300
+      },
+      {
+        "property": 11,
+        "value": 0
+      },
+      {
+        "property": 10,
+        "value": 0
+      },
+      {
+        "property": 103,
+        "value": 100
+      },
+      {
+        "property": 104,
+        "value": 100
+      },
+      {
+        "property": 107,
+        "value": 0
+      },
+      {
+        "property": 108,
+        "value": 0
+      },
+      {
+        "property": 110,
+        "value": 0
+      },
+      {
+        "property": 109,
+        "value": 0
+      }
+    ],
+    "standard_insight": 1000,
+    "standard_critical": 1000
+  },
+  {
+    "id": 14,
+    "exp": 14000,
+    "property": [
+      {
+        "property": 1,
+        "value": 470
+      },
+      {
+        "property": 3,
+        "value": 21
+      },
+      {
+        "property": 5,
+        "value": 7
+      },
+      {
+        "property": 8,
+        "value": 100
+      },
+      {
+        "property": 9,
+        "value": 60
+      },
+      {
+        "property": 6,
+        "value": 30
+      },
+      {
+        "property": 7,
+        "value": 10
+      },
+      {
+        "property": 105,
+        "value": 200
+      },
+      {
+        "property": 101,
+        "value": 300
+      },
+      {
+        "property": 11,
+        "value": 0
+      },
+      {
+        "property": 10,
+        "value": 0
+      },
+      {
+        "property": 103,
+        "value": 100
+      },
+      {
+        "property": 104,
+        "value": 100
+      },
+      {
+        "property": 107,
+        "value": 0
+      },
+      {
+        "property": 108,
+        "value": 0
+      },
+      {
+        "property": 110,
+        "value": 0
+      },
+      {
+        "property": 109,
+        "value": 0
+      }
+    ],
+    "standard_insight": 1000,
+    "standard_critical": 1000
+  },
+  {
+    "id": 15,
+    "exp": 15000,
+    "property": [
+      {
+        "property": 1,
+        "value": 470
+      },
+      {
+        "property": 3,
+        "value": 21
+      },
+      {
+        "property": 5,
+        "value": 7
+      },
+      {
+        "property": 8,
+        "value": 100
+      },
+      {
+        "property": 9,
+        "value": 60
+      },
+      {
+        "property": 6,
+        "value": 30
+      },
+      {
+        "property": 7,
+        "value": 10
+      },
+      {
+        "property": 105,
+        "value": 200
+      },
+      {
+        "property": 101,
+        "value": 300
+      },
+      {
+        "property": 11,
+        "value": 0
+      },
+      {
+        "property": 10,
+        "value": 0
+      },
+      {
+        "property": 103,
+        "value": 100
+      },
+      {
+        "property": 104,
+        "value": 100
+      },
+      {
+        "property": 107,
+        "value": 0
+      },
+      {
+        "property": 108,
+        "value": 0
+      },
+      {
+        "property": 110,
+        "value": 0
+      },
+      {
+        "property": 109,
+        "value": 0
+      }
+    ],
+    "standard_insight": 1000,
+    "standard_critical": 1000
+  },
+  {
+    "id": 16,
+    "exp": 16000,
+    "property": [
+      {
+        "property": 1,
+        "value": 470
+      },
+      {
+        "property": 3,
+        "value": 21
+      },
+      {
+        "property": 5,
+        "value": 7
+      },
+      {
+        "property": 8,
+        "value": 100
+      },
+      {
+        "property": 9,
+        "value": 60
+      },
+      {
+        "property": 6,
+        "value": 30
+      },
+      {
+        "property": 7,
+        "value": 10
+      },
+      {
+        "property": 105,
+        "value": 200
+      },
+      {
+        "property": 101,
+        "value": 300
+      },
+      {
+        "property": 11,
+        "value": 0
+      },
+      {
+        "property": 10,
+        "value": 0
+      },
+      {
+        "property": 103,
+        "value": 100
+      },
+      {
+        "property": 104,
+        "value": 100
+      },
+      {
+        "property": 107,
+        "value": 0
+      },
+      {
+        "property": 108,
+        "value": 0
+      },
+      {
+        "property": 110,
+        "value": 0
+      },
+      {
+        "property": 109,
+        "value": 0
+      }
+    ],
+    "standard_insight": 1000,
+    "standard_critical": 1000
+  },
+  {
+    "id": 17,
+    "exp": 17000,
+    "property": [
+      {
+        "property": 1,
+        "value": 470
+      },
+      {
+        "property": 3,
+        "value": 21
+      },
+      {
+        "property": 5,
+        "value": 7
+      },
+      {
+        "property": 8,
+        "value": 100
+      },
+      {
+        "property": 9,
+        "value": 60
+      },
+      {
+        "property": 6,
+        "value": 30
+      },
+      {
+        "property": 7,
+        "value": 10
+      },
+      {
+        "property": 105,
+        "value": 200
+      },
+      {
+        "property": 101,
+        "value": 300
+      },
+      {
+        "property": 11,
+        "value": 0
+      },
+      {
+        "property": 10,
+        "value": 0
+      },
+      {
+        "property": 103,
+        "value": 100
+      },
+      {
+        "property": 104,
+        "value": 100
+      },
+      {
+        "property": 107,
+        "value": 0
+      },
+      {
+        "property": 108,
+        "value": 0
+      },
+      {
+        "property": 110,
+        "value": 0
+      },
+      {
+        "property": 109,
+        "value": 0
+      }
+    ],
+    "standard_insight": 1000,
+    "standard_critical": 1000
+  },
+  {
+    "id": 18,
+    "exp": 18000,
+    "property": [
+      {
+        "property": 1,
+        "value": 470
+      },
+      {
+        "property": 3,
+        "value": 21
+      },
+      {
+        "property": 5,
+        "value": 7
+      },
+      {
+        "property": 8,
+        "value": 100
+      },
+      {
+        "property": 9,
+        "value": 60
+      },
+      {
+        "property": 6,
+        "value": 30
+      },
+      {
+        "property": 7,
+        "value": 10
+      },
+      {
+        "property": 105,
+        "value": 200
+      },
+      {
+        "property": 101,
+        "value": 300
+      },
+      {
+        "property": 11,
+        "value": 0
+      },
+      {
+        "property": 10,
+        "value": 0
+      },
+      {
+        "property": 103,
+        "value": 100
+      },
+      {
+        "property": 104,
+        "value": 100
+      },
+      {
+        "property": 107,
+        "value": 0
+      },
+      {
+        "property": 108,
+        "value": 0
+      },
+      {
+        "property": 110,
+        "value": 0
+      },
+      {
+        "property": 109,
+        "value": 0
+      }
+    ],
+    "standard_insight": 1000,
+    "standard_critical": 1000
+  },
+  {
+    "id": 19,
+    "exp": 19000,
+    "property": [
+      {
+        "property": 1,
+        "value": 470
+      },
+      {
+        "property": 3,
+        "value": 21
+      },
+      {
+        "property": 5,
+        "value": 7
+      },
+      {
+        "property": 8,
+        "value": 100
+      },
+      {
+        "property": 9,
+        "value": 60
+      },
+      {
+        "property": 6,
+        "value": 30
+      },
+      {
+        "property": 7,
+        "value": 10
+      },
+      {
+        "property": 105,
+        "value": 200
+      },
+      {
+        "property": 101,
+        "value": 300
+      },
+      {
+        "property": 11,
+        "value": 0
+      },
+      {
+        "property": 10,
+        "value": 0
+      },
+      {
+        "property": 103,
+        "value": 100
+      },
+      {
+        "property": 104,
+        "value": 100
+      },
+      {
+        "property": 107,
+        "value": 0
+      },
+      {
+        "property": 108,
+        "value": 0
+      },
+      {
+        "property": 110,
+        "value": 0
+      },
+      {
+        "property": 109,
+        "value": 0
+      }
+    ],
+    "standard_insight": 1000,
+    "standard_critical": 1000
+  },
+  {
+    "id": 20,
+    "exp": 20000,
+    "property": [
+      {
+        "property": 1,
+        "value": 470
+      },
+      {
+        "property": 3,
+        "value": 21
+      },
+      {
+        "property": 5,
+        "value": 7
+      },
+      {
+        "property": 8,
+        "value": 100
+      },
+      {
+        "property": 9,
+        "value": 60
+      },
+      {
+        "property": 6,
+        "value": 30
+      },
+      {
+        "property": 7,
+        "value": 10
+      },
+      {
+        "property": 105,
+        "value": 200
+      },
+      {
+        "property": 101,
+        "value": 300
+      },
+      {
+        "property": 11,
+        "value": 0
+      },
+      {
+        "property": 10,
+        "value": 0
+      },
+      {
+        "property": 103,
+        "value": 100
+      },
+      {
+        "property": 104,
+        "value": 100
+      },
+      {
+        "property": 107,
+        "value": 0
+      },
+      {
+        "property": 108,
+        "value": 0
+      },
+      {
+        "property": 110,
+        "value": 0
+      },
+      {
+        "property": 109,
+        "value": 0
+      }
+    ],
+    "standard_insight": 1000,
+    "standard_critical": 1000
+  },
+  {
+    "id": 21,
+    "exp": 21000,
+    "property": [
+      {
+        "property": 1,
+        "value": 470
+      },
+      {
+        "property": 3,
+        "value": 21
+      },
+      {
+        "property": 5,
+        "value": 7
+      },
+      {
+        "property": 8,
+        "value": 100
+      },
+      {
+        "property": 9,
+        "value": 60
+      },
+      {
+        "property": 6,
+        "value": 30
+      },
+      {
+        "property": 7,
+        "value": 10
+      },
+      {
+        "property": 105,
+        "value": 200
+      },
+      {
+        "property": 101,
+        "value": 300
+      },
+      {
+        "property": 11,
+        "value": 0
+      },
+      {
+        "property": 10,
+        "value": 0
+      },
+      {
+        "property": 103,
+        "value": 100
+      },
+      {
+        "property": 104,
+        "value": 100
+      },
+      {
+        "property": 107,
+        "value": 0
+      },
+      {
+        "property": 108,
+        "value": 0
+      },
+      {
+        "property": 110,
+        "value": 0
+      },
+      {
+        "property": 109,
+        "value": 0
+      }
+    ],
+    "standard_insight": 1000,
+    "standard_critical": 1000
+  },
+  {
+    "id": 22,
+    "exp": 22000,
+    "property": [
+      {
+        "property": 1,
+        "value": 470
+      },
+      {
+        "property": 3,
+        "value": 21
+      },
+      {
+        "property": 5,
+        "value": 7
+      },
+      {
+        "property": 8,
+        "value": 100
+      },
+      {
+        "property": 9,
+        "value": 60
+      },
+      {
+        "property": 6,
+        "value": 30
+      },
+      {
+        "property": 7,
+        "value": 10
+      },
+      {
+        "property": 105,
+        "value": 200
+      },
+      {
+        "property": 101,
+        "value": 300
+      },
+      {
+        "property": 11,
+        "value": 0
+      },
+      {
+        "property": 10,
+        "value": 0
+      },
+      {
+        "property": 103,
+        "value": 100
+      },
+      {
+        "property": 104,
+        "value": 100
+      },
+      {
+        "property": 107,
+        "value": 0
+      },
+      {
+        "property": 108,
+        "value": 0
+      },
+      {
+        "property": 110,
+        "value": 0
+      },
+      {
+        "property": 109,
+        "value": 0
+      }
+    ],
+    "standard_insight": 1000,
+    "standard_critical": 1000
+  },
+  {
+    "id": 23,
+    "exp": 23000,
+    "property": [
+      {
+        "property": 1,
+        "value": 470
+      },
+      {
+        "property": 3,
+        "value": 21
+      },
+      {
+        "property": 5,
+        "value": 7
+      },
+      {
+        "property": 8,
+        "value": 100
+      },
+      {
+        "property": 9,
+        "value": 60
+      },
+      {
+        "property": 6,
+        "value": 30
+      },
+      {
+        "property": 7,
+        "value": 10
+      },
+      {
+        "property": 105,
+        "value": 200
+      },
+      {
+        "property": 101,
+        "value": 300
+      },
+      {
+        "property": 11,
+        "value": 0
+      },
+      {
+        "property": 10,
+        "value": 0
+      },
+      {
+        "property": 103,
+        "value": 100
+      },
+      {
+        "property": 104,
+        "value": 100
+      },
+      {
+        "property": 107,
+        "value": 0
+      },
+      {
+        "property": 108,
+        "value": 0
+      },
+      {
+        "property": 110,
+        "value": 0
+      },
+      {
+        "property": 109,
+        "value": 0
+      }
+    ],
+    "standard_insight": 1000,
+    "standard_critical": 1000
+  },
+  {
+    "id": 24,
+    "exp": 24000,
+    "property": [
+      {
+        "property": 1,
+        "value": 470
+      },
+      {
+        "property": 3,
+        "value": 21
+      },
+      {
+        "property": 5,
+        "value": 7
+      },
+      {
+        "property": 8,
+        "value": 100
+      },
+      {
+        "property": 9,
+        "value": 60
+      },
+      {
+        "property": 6,
+        "value": 30
+      },
+      {
+        "property": 7,
+        "value": 10
+      },
+      {
+        "property": 105,
+        "value": 200
+      },
+      {
+        "property": 101,
+        "value": 300
+      },
+      {
+        "property": 11,
+        "value": 0
+      },
+      {
+        "property": 10,
+        "value": 0
+      },
+      {
+        "property": 103,
+        "value": 100
+      },
+      {
+        "property": 104,
+        "value": 100
+      },
+      {
+        "property": 107,
+        "value": 0
+      },
+      {
+        "property": 108,
+        "value": 0
+      },
+      {
+        "property": 110,
+        "value": 0
+      },
+      {
+        "property": 109,
+        "value": 0
+      }
+    ],
+    "standard_insight": 1000,
+    "standard_critical": 1000
+  },
+  {
+    "id": 25,
+    "exp": 25000,
+    "property": [
+      {
+        "property": 1,
+        "value": 470
+      },
+      {
+        "property": 3,
+        "value": 21
+      },
+      {
+        "property": 5,
+        "value": 7
+      },
+      {
+        "property": 8,
+        "value": 100
+      },
+      {
+        "property": 9,
+        "value": 60
+      },
+      {
+        "property": 6,
+        "value": 30
+      },
+      {
+        "property": 7,
+        "value": 10
+      },
+      {
+        "property": 105,
+        "value": 200
+      },
+      {
+        "property": 101,
+        "value": 300
+      },
+      {
+        "property": 11,
+        "value": 0
+      },
+      {
+        "property": 10,
+        "value": 0
+      },
+      {
+        "property": 103,
+        "value": 100
+      },
+      {
+        "property": 104,
+        "value": 100
+      },
+      {
+        "property": 107,
+        "value": 0
+      },
+      {
+        "property": 108,
+        "value": 0
+      },
+      {
+        "property": 110,
+        "value": 0
+      },
+      {
+        "property": 109,
+        "value": 0
+      }
+    ],
+    "standard_insight": 1000,
+    "standard_critical": 1000
+  },
+  {
+    "id": 26,
+    "exp": 26000,
+    "property": [
+      {
+        "property": 1,
+        "value": 470
+      },
+      {
+        "property": 3,
+        "value": 21
+      },
+      {
+        "property": 5,
+        "value": 7
+      },
+      {
+        "property": 8,
+        "value": 100
+      },
+      {
+        "property": 9,
+        "value": 60
+      },
+      {
+        "property": 6,
+        "value": 30
+      },
+      {
+        "property": 7,
+        "value": 10
+      },
+      {
+        "property": 105,
+        "value": 200
+      },
+      {
+        "property": 101,
+        "value": 300
+      },
+      {
+        "property": 11,
+        "value": 0
+      },
+      {
+        "property": 10,
+        "value": 0
+      },
+      {
+        "property": 103,
+        "value": 100
+      },
+      {
+        "property": 104,
+        "value": 100
+      },
+      {
+        "property": 107,
+        "value": 0
+      },
+      {
+        "property": 108,
+        "value": 0
+      },
+      {
+        "property": 110,
+        "value": 0
+      },
+      {
+        "property": 109,
+        "value": 0
+      }
+    ],
+    "standard_insight": 1000,
+    "standard_critical": 1000
+  },
+  {
+    "id": 27,
+    "exp": 27000,
+    "property": [
+      {
+        "property": 1,
+        "value": 470
+      },
+      {
+        "property": 3,
+        "value": 21
+      },
+      {
+        "property": 5,
+        "value": 7
+      },
+      {
+        "property": 8,
+        "value": 100
+      },
+      {
+        "property": 9,
+        "value": 60
+      },
+      {
+        "property": 6,
+        "value": 30
+      },
+      {
+        "property": 7,
+        "value": 10
+      },
+      {
+        "property": 105,
+        "value": 200
+      },
+      {
+        "property": 101,
+        "value": 300
+      },
+      {
+        "property": 11,
+        "value": 0
+      },
+      {
+        "property": 10,
+        "value": 0
+      },
+      {
+        "property": 103,
+        "value": 100
+      },
+      {
+        "property": 104,
+        "value": 100
+      },
+      {
+        "property": 107,
+        "value": 0
+      },
+      {
+        "property": 108,
+        "value": 0
+      },
+      {
+        "property": 110,
+        "value": 0
+      },
+      {
+        "property": 109,
+        "value": 0
+      }
+    ],
+    "standard_insight": 1000,
+    "standard_critical": 1000
+  },
+  {
+    "id": 28,
+    "exp": 28000,
+    "property": [
+      {
+        "property": 1,
+        "value": 470
+      },
+      {
+        "property": 3,
+        "value": 21
+      },
+      {
+        "property": 5,
+        "value": 7
+      },
+      {
+        "property": 8,
+        "value": 100
+      },
+      {
+        "property": 9,
+        "value": 60
+      },
+      {
+        "property": 6,
+        "value": 30
+      },
+      {
+        "property": 7,
+        "value": 10
+      },
+      {
+        "property": 105,
+        "value": 200
+      },
+      {
+        "property": 101,
+        "value": 300
+      },
+      {
+        "property": 11,
+        "value": 0
+      },
+      {
+        "property": 10,
+        "value": 0
+      },
+      {
+        "property": 103,
+        "value": 100
+      },
+      {
+        "property": 104,
+        "value": 100
+      },
+      {
+        "property": 107,
+        "value": 0
+      },
+      {
+        "property": 108,
+        "value": 0
+      },
+      {
+        "property": 110,
+        "value": 0
+      },
+      {
+        "property": 109,
+        "value": 0
+      }
+    ],
+    "standard_insight": 1000,
+    "standard_critical": 1000
+  },
+  {
+    "id": 29,
+    "exp": 29000,
+    "property": [
+      {
+        "property": 1,
+        "value": 470
+      },
+      {
+        "property": 3,
+        "value": 21
+      },
+      {
+        "property": 5,
+        "value": 7
+      },
+      {
+        "property": 8,
+        "value": 100
+      },
+      {
+        "property": 9,
+        "value": 60
+      },
+      {
+        "property": 6,
+        "value": 30
+      },
+      {
+        "property": 7,
+        "value": 10
+      },
+      {
+        "property": 105,
+        "value": 200
+      },
+      {
+        "property": 101,
+        "value": 300
+      },
+      {
+        "property": 11,
+        "value": 0
+      },
+      {
+        "property": 10,
+        "value": 0
+      },
+      {
+        "property": 103,
+        "value": 100
+      },
+      {
+        "property": 104,
+        "value": 100
+      },
+      {
+        "property": 107,
+        "value": 0
+      },
+      {
+        "property": 108,
+        "value": 0
+      },
+      {
+        "property": 110,
+        "value": 0
+      },
+      {
+        "property": 109,
+        "value": 0
+      }
+    ],
+    "standard_insight": 1000,
+    "standard_critical": 1000
+  },
+  {
+    "id": 30,
+    "exp": 30000,
+    "property": [
+      {
+        "property": 1,
+        "value": 470
+      },
+      {
+        "property": 3,
+        "value": 21
+      },
+      {
+        "property": 5,
+        "value": 7
+      },
+      {
+        "property": 8,
+        "value": 100
+      },
+      {
+        "property": 9,
+        "value": 60
+      },
+      {
+        "property": 6,
+        "value": 30
+      },
+      {
+        "property": 7,
+        "value": 10
+      },
+      {
+        "property": 105,
+        "value": 200
+      },
+      {
+        "property": 101,
+        "value": 300
+      },
+      {
+        "property": 11,
+        "value": 0
+      },
+      {
+        "property": 10,
+        "value": 0
+      },
+      {
+        "property": 103,
+        "value": 100
+      },
+      {
+        "property": 104,
+        "value": 100
+      },
+      {
+        "property": 107,
+        "value": 0
+      },
+      {
+        "property": 108,
+        "value": 0
+      },
+      {
+        "property": 110,
+        "value": 0
+      },
+      {
+        "property": 109,
+        "value": 0
+      }
+    ],
+    "standard_insight": 1000,
+    "standard_critical": 1000
+  },
+  {
+    "id": 31,
+    "exp": 31000,
+    "property": [
+      {
+        "property": 1,
+        "value": 470
+      },
+      {
+        "property": 3,
+        "value": 21
+      },
+      {
+        "property": 5,
+        "value": 7
+      },
+      {
+        "property": 8,
+        "value": 100
+      },
+      {
+        "property": 9,
+        "value": 60
+      },
+      {
+        "property": 6,
+        "value": 30
+      },
+      {
+        "property": 7,
+        "value": 10
+      },
+      {
+        "property": 105,
+        "value": 200
+      },
+      {
+        "property": 101,
+        "value": 300
+      },
+      {
+        "property": 11,
+        "value": 0
+      },
+      {
+        "property": 10,
+        "value": 0
+      },
+      {
+        "property": 103,
+        "value": 100
+      },
+      {
+        "property": 104,
+        "value": 100
+      },
+      {
+        "property": 107,
+        "value": 0
+      },
+      {
+        "property": 108,
+        "value": 0
+      },
+      {
+        "property": 110,
+        "value": 0
+      },
+      {
+        "property": 109,
+        "value": 0
+      }
+    ],
+    "standard_insight": 1000,
+    "standard_critical": 1000
+  },
+  {
+    "id": 32,
+    "exp": 32000,
+    "property": [
+      {
+        "property": 1,
+        "value": 470
+      },
+      {
+        "property": 3,
+        "value": 21
+      },
+      {
+        "property": 5,
+        "value": 7
+      },
+      {
+        "property": 8,
+        "value": 100
+      },
+      {
+        "property": 9,
+        "value": 60
+      },
+      {
+        "property": 6,
+        "value": 30
+      },
+      {
+        "property": 7,
+        "value": 10
+      },
+      {
+        "property": 105,
+        "value": 200
+      },
+      {
+        "property": 101,
+        "value": 300
+      },
+      {
+        "property": 11,
+        "value": 0
+      },
+      {
+        "property": 10,
+        "value": 0
+      },
+      {
+        "property": 103,
+        "value": 100
+      },
+      {
+        "property": 104,
+        "value": 100
+      },
+      {
+        "property": 107,
+        "value": 0
+      },
+      {
+        "property": 108,
+        "value": 0
+      },
+      {
+        "property": 110,
+        "value": 0
+      },
+      {
+        "property": 109,
+        "value": 0
+      }
+    ],
+    "standard_insight": 1000,
+    "standard_critical": 1000
+  },
+  {
+    "id": 33,
+    "exp": 33000,
+    "property": [
+      {
+        "property": 1,
+        "value": 470
+      },
+      {
+        "property": 3,
+        "value": 21
+      },
+      {
+        "property": 5,
+        "value": 7
+      },
+      {
+        "property": 8,
+        "value": 100
+      },
+      {
+        "property": 9,
+        "value": 60
+      },
+      {
+        "property": 6,
+        "value": 30
+      },
+      {
+        "property": 7,
+        "value": 10
+      },
+      {
+        "property": 105,
+        "value": 200
+      },
+      {
+        "property": 101,
+        "value": 300
+      },
+      {
+        "property": 11,
+        "value": 0
+      },
+      {
+        "property": 10,
+        "value": 0
+      },
+      {
+        "property": 103,
+        "value": 100
+      },
+      {
+        "property": 104,
+        "value": 100
+      },
+      {
+        "property": 107,
+        "value": 0
+      },
+      {
+        "property": 108,
+        "value": 0
+      },
+      {
+        "property": 110,
+        "value": 0
+      },
+      {
+        "property": 109,
+        "value": 0
+      }
+    ],
+    "standard_insight": 1000,
+    "standard_critical": 1000
+  },
+  {
+    "id": 34,
+    "exp": 34000,
+    "property": [
+      {
+        "property": 1,
+        "value": 470
+      },
+      {
+        "property": 3,
+        "value": 21
+      },
+      {
+        "property": 5,
+        "value": 7
+      },
+      {
+        "property": 8,
+        "value": 100
+      },
+      {
+        "property": 9,
+        "value": 60
+      },
+      {
+        "property": 6,
+        "value": 30
+      },
+      {
+        "property": 7,
+        "value": 10
+      },
+      {
+        "property": 105,
+        "value": 200
+      },
+      {
+        "property": 101,
+        "value": 300
+      },
+      {
+        "property": 11,
+        "value": 0
+      },
+      {
+        "property": 10,
+        "value": 0
+      },
+      {
+        "property": 103,
+        "value": 100
+      },
+      {
+        "property": 104,
+        "value": 100
+      },
+      {
+        "property": 107,
+        "value": 0
+      },
+      {
+        "property": 108,
+        "value": 0
+      },
+      {
+        "property": 110,
+        "value": 0
+      },
+      {
+        "property": 109,
+        "value": 0
+      }
+    ],
+    "standard_insight": 1000,
+    "standard_critical": 1000
+  },
+  {
+    "id": 35,
+    "exp": 35000,
+    "property": [
+      {
+        "property": 1,
+        "value": 470
+      },
+      {
+        "property": 3,
+        "value": 21
+      },
+      {
+        "property": 5,
+        "value": 7
+      },
+      {
+        "property": 8,
+        "value": 100
+      },
+      {
+        "property": 9,
+        "value": 60
+      },
+      {
+        "property": 6,
+        "value": 30
+      },
+      {
+        "property": 7,
+        "value": 10
+      },
+      {
+        "property": 105,
+        "value": 200
+      },
+      {
+        "property": 101,
+        "value": 300
+      },
+      {
+        "property": 11,
+        "value": 0
+      },
+      {
+        "property": 10,
+        "value": 0
+      },
+      {
+        "property": 103,
+        "value": 100
+      },
+      {
+        "property": 104,
+        "value": 100
+      },
+      {
+        "property": 107,
+        "value": 0
+      },
+      {
+        "property": 108,
+        "value": 0
+      },
+      {
+        "property": 110,
+        "value": 0
+      },
+      {
+        "property": 109,
+        "value": 0
+      }
+    ],
+    "standard_insight": 1000,
+    "standard_critical": 1000
+  },
+  {
+    "id": 36,
+    "exp": 36000,
+    "property": [
+      {
+        "property": 1,
+        "value": 470
+      },
+      {
+        "property": 3,
+        "value": 21
+      },
+      {
+        "property": 5,
+        "value": 7
+      },
+      {
+        "property": 8,
+        "value": 100
+      },
+      {
+        "property": 9,
+        "value": 60
+      },
+      {
+        "property": 6,
+        "value": 30
+      },
+      {
+        "property": 7,
+        "value": 10
+      },
+      {
+        "property": 105,
+        "value": 200
+      },
+      {
+        "property": 101,
+        "value": 300
+      },
+      {
+        "property": 11,
+        "value": 0
+      },
+      {
+        "property": 10,
+        "value": 0
+      },
+      {
+        "property": 103,
+        "value": 100
+      },
+      {
+        "property": 104,
+        "value": 100
+      },
+      {
+        "property": 107,
+        "value": 0
+      },
+      {
+        "property": 108,
+        "value": 0
+      },
+      {
+        "property": 110,
+        "value": 0
+      },
+      {
+        "property": 109,
+        "value": 0
+      }
+    ],
+    "standard_insight": 1000,
+    "standard_critical": 1000
+  },
+  {
+    "id": 37,
+    "exp": 37000,
+    "property": [
+      {
+        "property": 1,
+        "value": 470
+      },
+      {
+        "property": 3,
+        "value": 21
+      },
+      {
+        "property": 5,
+        "value": 7
+      },
+      {
+        "property": 8,
+        "value": 100
+      },
+      {
+        "property": 9,
+        "value": 60
+      },
+      {
+        "property": 6,
+        "value": 30
+      },
+      {
+        "property": 7,
+        "value": 10
+      },
+      {
+        "property": 105,
+        "value": 200
+      },
+      {
+        "property": 101,
+        "value": 300
+      },
+      {
+        "property": 11,
+        "value": 0
+      },
+      {
+        "property": 10,
+        "value": 0
+      },
+      {
+        "property": 103,
+        "value": 100
+      },
+      {
+        "property": 104,
+        "value": 100
+      },
+      {
+        "property": 107,
+        "value": 0
+      },
+      {
+        "property": 108,
+        "value": 0
+      },
+      {
+        "property": 110,
+        "value": 0
+      },
+      {
+        "property": 109,
+        "value": 0
+      }
+    ],
+    "standard_insight": 1000,
+    "standard_critical": 1000
+  },
+  {
+    "id": 38,
+    "exp": 38000,
+    "property": [
+      {
+        "property": 1,
+        "value": 470
+      },
+      {
+        "property": 3,
+        "value": 21
+      },
+      {
+        "property": 5,
+        "value": 7
+      },
+      {
+        "property": 8,
+        "value": 100
+      },
+      {
+        "property": 9,
+        "value": 60
+      },
+      {
+        "property": 6,
+        "value": 30
+      },
+      {
+        "property": 7,
+        "value": 10
+      },
+      {
+        "property": 105,
+        "value": 200
+      },
+      {
+        "property": 101,
+        "value": 300
+      },
+      {
+        "property": 11,
+        "value": 0
+      },
+      {
+        "property": 10,
+        "value": 0
+      },
+      {
+        "property": 103,
+        "value": 100
+      },
+      {
+        "property": 104,
+        "value": 100
+      },
+      {
+        "property": 107,
+        "value": 0
+      },
+      {
+        "property": 108,
+        "value": 0
+      },
+      {
+        "property": 110,
+        "value": 0
+      },
+      {
+        "property": 109,
+        "value": 0
+      }
+    ],
+    "standard_insight": 1000,
+    "standard_critical": 1000
+  },
+  {
+    "id": 39,
+    "exp": 39000,
+    "property": [
+      {
+        "property": 1,
+        "value": 470
+      },
+      {
+        "property": 3,
+        "value": 21
+      },
+      {
+        "property": 5,
+        "value": 7
+      },
+      {
+        "property": 8,
+        "value": 100
+      },
+      {
+        "property": 9,
+        "value": 60
+      },
+      {
+        "property": 6,
+        "value": 30
+      },
+      {
+        "property": 7,
+        "value": 10
+      },
+      {
+        "property": 105,
+        "value": 200
+      },
+      {
+        "property": 101,
+        "value": 300
+      },
+      {
+        "property": 11,
+        "value": 0
+      },
+      {
+        "property": 10,
+        "value": 0
+      },
+      {
+        "property": 103,
+        "value": 100
+      },
+      {
+        "property": 104,
+        "value": 100
+      },
+      {
+        "property": 107,
+        "value": 0
+      },
+      {
+        "property": 108,
+        "value": 0
+      },
+      {
+        "property": 110,
+        "value": 0
+      },
+      {
+        "property": 109,
+        "value": 0
+      }
+    ],
+    "standard_insight": 1000,
+    "standard_critical": 1000
+  },
+  {
+    "id": 40,
+    "exp": 40000,
+    "property": [
+      {
+        "property": 1,
+        "value": 470
+      },
+      {
+        "property": 3,
+        "value": 21
+      },
+      {
+        "property": 5,
+        "value": 7
+      },
+      {
+        "property": 8,
+        "value": 100
+      },
+      {
+        "property": 9,
+        "value": 60
+      },
+      {
+        "property": 6,
+        "value": 30
+      },
+      {
+        "property": 7,
+        "value": 10
+      },
+      {
+        "property": 105,
+        "value": 200
+      },
+      {
+        "property": 101,
+        "value": 300
+      },
+      {
+        "property": 11,
+        "value": 0
+      },
+      {
+        "property": 10,
+        "value": 0
+      },
+      {
+        "property": 103,
+        "value": 100
+      },
+      {
+        "property": 104,
+        "value": 100
+      },
+      {
+        "property": 107,
+        "value": 0
+      },
+      {
+        "property": 108,
+        "value": 0
+      },
+      {
+        "property": 110,
+        "value": 0
+      },
+      {
+        "property": 109,
+        "value": 0
+      }
+    ],
+    "standard_insight": 1000,
+    "standard_critical": 1000
+  },
+  {
+    "id": 41,
+    "exp": 41000,
+    "property": [
+      {
+        "property": 1,
+        "value": 470
+      },
+      {
+        "property": 3,
+        "value": 21
+      },
+      {
+        "property": 5,
+        "value": 7
+      },
+      {
+        "property": 8,
+        "value": 100
+      },
+      {
+        "property": 9,
+        "value": 60
+      },
+      {
+        "property": 6,
+        "value": 30
+      },
+      {
+        "property": 7,
+        "value": 10
+      },
+      {
+        "property": 105,
+        "value": 200
+      },
+      {
+        "property": 101,
+        "value": 300
+      },
+      {
+        "property": 11,
+        "value": 0
+      },
+      {
+        "property": 10,
+        "value": 0
+      },
+      {
+        "property": 103,
+        "value": 100
+      },
+      {
+        "property": 104,
+        "value": 100
+      },
+      {
+        "property": 107,
+        "value": 0
+      },
+      {
+        "property": 108,
+        "value": 0
+      },
+      {
+        "property": 110,
+        "value": 0
+      },
+      {
+        "property": 109,
+        "value": 0
+      }
+    ],
+    "standard_insight": 1000,
+    "standard_critical": 1000
+  },
+  {
+    "id": 42,
+    "exp": 42000,
+    "property": [
+      {
+        "property": 1,
+        "value": 470
+      },
+      {
+        "property": 3,
+        "value": 21
+      },
+      {
+        "property": 5,
+        "value": 7
+      },
+      {
+        "property": 8,
+        "value": 100
+      },
+      {
+        "property": 9,
+        "value": 60
+      },
+      {
+        "property": 6,
+        "value": 30
+      },
+      {
+        "property": 7,
+        "value": 10
+      },
+      {
+        "property": 105,
+        "value": 200
+      },
+      {
+        "property": 101,
+        "value": 300
+      },
+      {
+        "property": 11,
+        "value": 0
+      },
+      {
+        "property": 10,
+        "value": 0
+      },
+      {
+        "property": 103,
+        "value": 100
+      },
+      {
+        "property": 104,
+        "value": 100
+      },
+      {
+        "property": 107,
+        "value": 0
+      },
+      {
+        "property": 108,
+        "value": 0
+      },
+      {
+        "property": 110,
+        "value": 0
+      },
+      {
+        "property": 109,
+        "value": 0
+      }
+    ],
+    "standard_insight": 1000,
+    "standard_critical": 1000
+  },
+  {
+    "id": 43,
+    "exp": 43000,
+    "property": [
+      {
+        "property": 1,
+        "value": 470
+      },
+      {
+        "property": 3,
+        "value": 21
+      },
+      {
+        "property": 5,
+        "value": 7
+      },
+      {
+        "property": 8,
+        "value": 100
+      },
+      {
+        "property": 9,
+        "value": 60
+      },
+      {
+        "property": 6,
+        "value": 30
+      },
+      {
+        "property": 7,
+        "value": 10
+      },
+      {
+        "property": 105,
+        "value": 200
+      },
+      {
+        "property": 101,
+        "value": 300
+      },
+      {
+        "property": 11,
+        "value": 0
+      },
+      {
+        "property": 10,
+        "value": 0
+      },
+      {
+        "property": 103,
+        "value": 100
+      },
+      {
+        "property": 104,
+        "value": 100
+      },
+      {
+        "property": 107,
+        "value": 0
+      },
+      {
+        "property": 108,
+        "value": 0
+      },
+      {
+        "property": 110,
+        "value": 0
+      },
+      {
+        "property": 109,
+        "value": 0
+      }
+    ],
+    "standard_insight": 1000,
+    "standard_critical": 1000
+  },
+  {
+    "id": 44,
+    "exp": 44000,
+    "property": [
+      {
+        "property": 1,
+        "value": 470
+      },
+      {
+        "property": 3,
+        "value": 21
+      },
+      {
+        "property": 5,
+        "value": 7
+      },
+      {
+        "property": 8,
+        "value": 100
+      },
+      {
+        "property": 9,
+        "value": 60
+      },
+      {
+        "property": 6,
+        "value": 30
+      },
+      {
+        "property": 7,
+        "value": 10
+      },
+      {
+        "property": 105,
+        "value": 200
+      },
+      {
+        "property": 101,
+        "value": 300
+      },
+      {
+        "property": 11,
+        "value": 0
+      },
+      {
+        "property": 10,
+        "value": 0
+      },
+      {
+        "property": 103,
+        "value": 100
+      },
+      {
+        "property": 104,
+        "value": 100
+      },
+      {
+        "property": 107,
+        "value": 0
+      },
+      {
+        "property": 108,
+        "value": 0
+      },
+      {
+        "property": 110,
+        "value": 0
+      },
+      {
+        "property": 109,
+        "value": 0
+      }
+    ],
+    "standard_insight": 1000,
+    "standard_critical": 1000
+  },
+  {
+    "id": 45,
+    "exp": 45000,
+    "property": [
+      {
+        "property": 1,
+        "value": 470
+      },
+      {
+        "property": 3,
+        "value": 21
+      },
+      {
+        "property": 5,
+        "value": 7
+      },
+      {
+        "property": 8,
+        "value": 100
+      },
+      {
+        "property": 9,
+        "value": 60
+      },
+      {
+        "property": 6,
+        "value": 30
+      },
+      {
+        "property": 7,
+        "value": 10
+      },
+      {
+        "property": 105,
+        "value": 200
+      },
+      {
+        "property": 101,
+        "value": 300
+      },
+      {
+        "property": 11,
+        "value": 0
+      },
+      {
+        "property": 10,
+        "value": 0
+      },
+      {
+        "property": 103,
+        "value": 100
+      },
+      {
+        "property": 104,
+        "value": 100
+      },
+      {
+        "property": 107,
+        "value": 0
+      },
+      {
+        "property": 108,
+        "value": 0
+      },
+      {
+        "property": 110,
+        "value": 0
+      },
+      {
+        "property": 109,
+        "value": 0
+      }
+    ],
+    "standard_insight": 1000,
+    "standard_critical": 1000
+  },
+  {
+    "id": 46,
+    "exp": 46000,
+    "property": [
+      {
+        "property": 1,
+        "value": 470
+      },
+      {
+        "property": 3,
+        "value": 21
+      },
+      {
+        "property": 5,
+        "value": 7
+      },
+      {
+        "property": 8,
+        "value": 100
+      },
+      {
+        "property": 9,
+        "value": 60
+      },
+      {
+        "property": 6,
+        "value": 30
+      },
+      {
+        "property": 7,
+        "value": 10
+      },
+      {
+        "property": 105,
+        "value": 200
+      },
+      {
+        "property": 101,
+        "value": 300
+      },
+      {
+        "property": 11,
+        "value": 0
+      },
+      {
+        "property": 10,
+        "value": 0
+      },
+      {
+        "property": 103,
+        "value": 100
+      },
+      {
+        "property": 104,
+        "value": 100
+      },
+      {
+        "property": 107,
+        "value": 0
+      },
+      {
+        "property": 108,
+        "value": 0
+      },
+      {
+        "property": 110,
+        "value": 0
+      },
+      {
+        "property": 109,
+        "value": 0
+      }
+    ],
+    "standard_insight": 1000,
+    "standard_critical": 1000
+  },
+  {
+    "id": 47,
+    "exp": 47000,
+    "property": [
+      {
+        "property": 1,
+        "value": 470
+      },
+      {
+        "property": 3,
+        "value": 21
+      },
+      {
+        "property": 5,
+        "value": 7
+      },
+      {
+        "property": 8,
+        "value": 100
+      },
+      {
+        "property": 9,
+        "value": 60
+      },
+      {
+        "property": 6,
+        "value": 30
+      },
+      {
+        "property": 7,
+        "value": 10
+      },
+      {
+        "property": 105,
+        "value": 200
+      },
+      {
+        "property": 101,
+        "value": 300
+      },
+      {
+        "property": 11,
+        "value": 0
+      },
+      {
+        "property": 10,
+        "value": 0
+      },
+      {
+        "property": 103,
+        "value": 100
+      },
+      {
+        "property": 104,
+        "value": 100
+      },
+      {
+        "property": 107,
+        "value": 0
+      },
+      {
+        "property": 108,
+        "value": 0
+      },
+      {
+        "property": 110,
+        "value": 0
+      },
+      {
+        "property": 109,
+        "value": 0
+      }
+    ],
+    "standard_insight": 1000,
+    "standard_critical": 1000
+  },
+  {
+    "id": 48,
+    "exp": 48000,
+    "property": [
+      {
+        "property": 1,
+        "value": 470
+      },
+      {
+        "property": 3,
+        "value": 21
+      },
+      {
+        "property": 5,
+        "value": 7
+      },
+      {
+        "property": 8,
+        "value": 100
+      },
+      {
+        "property": 9,
+        "value": 60
+      },
+      {
+        "property": 6,
+        "value": 30
+      },
+      {
+        "property": 7,
+        "value": 10
+      },
+      {
+        "property": 105,
+        "value": 200
+      },
+      {
+        "property": 101,
+        "value": 300
+      },
+      {
+        "property": 11,
+        "value": 0
+      },
+      {
+        "property": 10,
+        "value": 0
+      },
+      {
+        "property": 103,
+        "value": 100
+      },
+      {
+        "property": 104,
+        "value": 100
+      },
+      {
+        "property": 107,
+        "value": 0
+      },
+      {
+        "property": 108,
+        "value": 0
+      },
+      {
+        "property": 110,
+        "value": 0
+      },
+      {
+        "property": 109,
+        "value": 0
+      }
+    ],
+    "standard_insight": 1000,
+    "standard_critical": 1000
+  },
+  {
+    "id": 49,
+    "exp": 49000,
+    "property": [
+      {
+        "property": 1,
+        "value": 470
+      },
+      {
+        "property": 3,
+        "value": 21
+      },
+      {
+        "property": 5,
+        "value": 7
+      },
+      {
+        "property": 8,
+        "value": 100
+      },
+      {
+        "property": 9,
+        "value": 60
+      },
+      {
+        "property": 6,
+        "value": 30
+      },
+      {
+        "property": 7,
+        "value": 10
+      },
+      {
+        "property": 105,
+        "value": 200
+      },
+      {
+        "property": 101,
+        "value": 300
+      },
+      {
+        "property": 11,
+        "value": 0
+      },
+      {
+        "property": 10,
+        "value": 0
+      },
+      {
+        "property": 103,
+        "value": 100
+      },
+      {
+        "property": 104,
+        "value": 100
+      },
+      {
+        "property": 107,
+        "value": 0
+      },
+      {
+        "property": 108,
+        "value": 0
+      },
+      {
+        "property": 110,
+        "value": 0
+      },
+      {
+        "property": 109,
+        "value": 0
+      }
+    ],
+    "standard_insight": 1000,
+    "standard_critical": 1000
+  }
+]

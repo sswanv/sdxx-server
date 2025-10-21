@@ -1,0 +1,56 @@
+pid: ./run/web.pid
+mode: debug
+timezone: Local
+
+http:
+  name: web
+  addr: :8080
+  certFile: ""
+  keyFile: ""
+  cors:
+    enable: true
+    allowOrigins: []
+    allowMethods: []
+    allowHeaders: []
+    allowCredentials: false
+    exposeHeaders: []
+    maxAge: 0
+    allowPrivateNetwork: false
+
+log:
+  level: debug
+  stackLevel: error
+  timeFormat: 2006/01/02 15:04:05.000000
+  callSkip: 2
+  callFullPath: true
+  terminals:
+    - console
+    - file
+  console:
+    format: text
+  file:
+    path: ./log/due.log
+    format: text
+    maxAge: 7d
+    maxSize: 100M
+    rotate: day
+    compress: false
+
+registry:
+  nacos:
+    urls:
+      - http://nacos.sdxx:8848/nacos
+    clusterName: DEFAULT
+    groupName: DEFAULT_GROUP
+    timeout: 3s
+    namespaceId: dev
+    endpoint: ""
+    regionId: ""
+    accessKey: ""
+    secretKey: ""
+    openKMS: false
+    cacheDir: ./run/nacos/naming/cache
+    username: ""
+    password: ""
+    logDir: ./run/nacos/naming/log
+    logLevel: info

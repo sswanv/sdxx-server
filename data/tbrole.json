@@ -1,0 +1,13 @@
+[
+  {
+    "role_id": 1,
+    "name": 1,
+    "role_model": 1,
+    "type": 1,
+    "role_skil_min": 5,
+    "role_skil_max": 12,
+    "default_attack": 1,
+    "initialize_lv": 0,
+    "initialize_avatar": 1
+  }
+]

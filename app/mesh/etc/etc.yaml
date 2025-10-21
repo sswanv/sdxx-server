@@ -1,0 +1,166 @@
+pid: ./run/mesh.pid
+mode: debug
+timezone: Local
+
+log:
+  level: debug
+  stackLevel: error
+  timeFormat: 2006/01/02 15:04:05.000000
+  callSkip: 2
+  callFullPath: false
+  terminals:
+    - console
+    - file
+  console:
+    format: text
+  file:
+    path: ./log/due.log
+    format: text
+    maxAge: 7d
+    maxSize: 100M
+    rotate: day
+    compress: false
+
+task:
+  size: 100000
+  nonblocking: true
+  disablePurge: true
+
+packet:
+  byteOrder: big
+  routeBytes: 4
+  seqBytes: 4
+  bufferBytes: 5000
+
+cluster:
+  mesh:
+    id: ""
+    name: mesh
+    codec: proto
+    timeout: 3s
+
+locate:
+  redis:
+    addrs:
+      - redis.sdxx:6379
+    db: 0
+    username: ""
+    password: qwe123
+    maxRetries: 3
+    prefix: due:locate
+
+registry:
+  nacos:
+    urls:
+      - http://nacos.sdxx:8848/nacos
+    clusterName: DEFAULT
+    groupName: DEFAULT_GROUP
+    timeout: 3s
+    namespaceId: dev
+    endpoint: ""
+    regionId: ""
+    accessKey: ""
+    secretKey: ""
+    openKMS: false
+    cacheDir: ./run/nacos/naming/cache
+    username: ""
+    password: ""
+    logDir: ./run/nacos/naming/log
+    logLevel: info
+
+config:
+  nacos:
+    mode: read-only
+    urls:
+      - http://nacos.sdxx:8848/nacos
+    clusterName: DEFAULT
+    groupName: DEFAULT_GROUP
+    timeout: 3s
+    namespaceId: dev
+    endpoint: ""
+    regionId: ""
+    accessKey: ""
+    secretKey: ""
+    openKMS: false
+    cacheDir: ./run/nacos/config/cache
+    username: ""
+    password: ""
+    logDir: ./run/nacos/config/log
+    logLevel: info
+  file:
+    path: ../../data
+
+transport:
+  grpc:
+    server:
+      addr: :0
+      keyFile: ""
+      certFile: ""
+    client:
+      caFile: ""
+      serverName: ""
+
+cache:
+  redis:
+    addrs:
+      - redis.sdxx:6379
+    db: 2
+    username: ""
+    password: qwe123
+    maxRetries: 3
+    prefix: due:cache
+    nilValue: cache@nil
+    nilExpiration: 10s
+    minExpiration: 1h
+    maxExpiration: 24h
+
+eventbus:
+  redis:
+    addrs:
+      - redis.sdxx:6379
+    db: 4
+    username: ""
+    password: qwe123
+    maxRetries: 3
+    prefix: due:eventbus
+
+jwt:
+  default:
+    issuer: sdxx
+    validDuration: 604800
+    refreshDuration: 604800
+    secretKey: sWvPLvrXnYuSpq8NIVfRoISEHRVKS5ZO
+    identityKey: uid
+    locations: query:token
+    store:
+      addrs:
+        - redis.sdxx:6379
+      db: 3
+      username: ""
+      password: qwe123
+      maxRetries: 3
+
+mysql:
+  platform:
+    dsn: root:qwe123@tcp(mysql.sdxx:3306)/platform?charset=utf8mb4&parseTime=True&loc=Local
+    logLevel: info
+    slowThreshold: 2000
+    maxIdleConns: 50
+    maxOpenConns: 50
+    connMaxLifetime: 3600
+  game:
+    dsn: root:qwe123@tcp(mysql.sdxx:3306)/game?charset=utf8mb4&parseTime=True&loc=Local
+    logLevel: info
+    slowThreshold: 2000
+    maxIdleConns: 50
+    maxOpenConns: 50
+    connMaxLifetime: 3600
+
+redis:
+  default:
+    addrs:
+      - redis.sdxx:6379
+    db: 1
+    username: ""
+    password: qwe123
+    maxRetries: 3

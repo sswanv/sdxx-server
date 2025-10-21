@@ -1,0 +1,72 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "gate",
+      "type": "go",
+      "request": "launch",
+      "mode": "auto",
+      "program": "${workspaceFolder}/app/gate/main.go",
+      "cwd": "${workspaceFolder}/app/gate",
+      "env": {},
+      "args": []
+    },
+    {
+      "name": "mesh",
+      "type": "go",
+      "request": "launch",
+      "mode": "auto",
+      "program": "${workspaceFolder}/app/mesh/main.go",
+      "cwd": "${workspaceFolder}/app/mesh",
+      "env": {},
+      "args": []
+    },
+    {
+      "name": "web",
+      "type": "go",
+      "request": "launch",
+      "mode": "auto",
+      "program": "${workspaceFolder}/app/web/main.go",
+      "cwd": "${workspaceFolder}/app/web",
+      "env": {},
+      "args": []
+    },
+    {
+      "name": "hall",
+      "type": "go",
+      "request": "launch",
+      "mode": "auto",
+      "program": "${workspaceFolder}/app/hall/main.go",
+      "cwd": "${workspaceFolder}/app/hall",
+      "env": {},
+      "args": []
+    },
+    {
+      "name": "gm",
+      "type": "go",
+      "request": "launch",
+      "mode": "auto",
+      "program": "${workspaceFolder}/app/gm/main.go",
+      "cwd": "${workspaceFolder}/app/gm",
+      "env": {},
+      "args": []
+    }
+  ],
+
+  "compounds": [
+    {
+      "name": "🍎sdxx",
+      "configurations": [
+        "gate",
+        "mesh",
+        "web",
+        "hall",
+        "gm"
+      ],
+      "stopAll": true,
+    }
+  ]
+}

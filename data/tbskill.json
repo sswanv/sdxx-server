@@ -1,0 +1,187 @@
+[
+  {
+    "id": 10001001,
+    "group_id": 10001,
+    "skill_lv": 1,
+    "upgrade_consume": [
+      {
+        "item": 1,
+        "Number": 100
+      },
+      {
+        "item": 2,
+        "Number": 100
+      }
+    ],
+    "skill_consume": {
+      "property": 1,
+      "value": 100
+    },
+    "skill_cd": 0.5,
+    "skill_count": 1,
+    "skill_range": 500,
+    "skill_type": 1,
+    "skill_animation": "",
+    "skill_time": 0,
+    "skill_priority": 1,
+    "skill_target": 1,
+    "harm_type": 2,
+    "harm_property": 3,
+    "harm_coefficient": 10000,
+    "harm_number": 10,
+    "skill_bullet": [
+      {
+        "bullet": 1,
+        "time": 0
+      }
+    ]
+  },
+  {
+    "id": 10001002,
+    "group_id": 10001,
+    "skill_lv": 2,
+    "upgrade_consume": [
+      {
+        "item": 1,
+        "Number": 100
+      },
+      {
+        "item": 2,
+        "Number": 100
+      }
+    ],
+    "skill_consume": {
+      "property": 1,
+      "value": 100
+    },
+    "skill_cd": 0.5,
+    "skill_count": 2,
+    "skill_range": 500,
+    "skill_type": 1,
+    "skill_animation": "",
+    "skill_time": 0,
+    "skill_priority": 1,
+    "skill_target": 1,
+    "harm_type": 2,
+    "harm_property": 3,
+    "harm_coefficient": 10000,
+    "harm_number": 10,
+    "skill_bullet": [
+      {
+        "bullet": 1,
+        "time": 0
+      }
+    ]
+  },
+  {
+    "id": 10001003,
+    "group_id": 10001,
+    "skill_lv": 3,
+    "upgrade_consume": [
+      {
+        "item": 1,
+        "Number": 100
+      },
+      {
+        "item": 2,
+        "Number": 100
+      }
+    ],
+    "skill_consume": {
+      "property": 1,
+      "value": 100
+    },
+    "skill_cd": 0.3,
+    "skill_count": 3,
+    "skill_range": 500,
+    "skill_type": 1,
+    "skill_animation": "",
+    "skill_time": 0,
+    "skill_priority": 1,
+    "skill_target": 1,
+    "harm_type": 2,
+    "harm_property": 3,
+    "harm_coefficient": 10000,
+    "harm_number": 10,
+    "skill_bullet": [
+      {
+        "bullet": 1,
+        "time": 0
+      }
+    ]
+  },
+  {
+    "id": 10001004,
+    "group_id": 10001,
+    "skill_lv": 4,
+    "upgrade_consume": [
+      {
+        "item": 1,
+        "Number": 100
+      },
+      {
+        "item": 2,
+        "Number": 100
+      }
+    ],
+    "skill_consume": {
+      "property": 1,
+      "value": 100
+    },
+    "skill_cd": 0.3,
+    "skill_count": 4,
+    "skill_range": 500,
+    "skill_type": 1,
+    "skill_animation": "",
+    "skill_time": 0,
+    "skill_priority": 1,
+    "skill_target": 1,
+    "harm_type": 2,
+    "harm_property": 3,
+    "harm_coefficient": 10000,
+    "harm_number": 10,
+    "skill_bullet": [
+      {
+        "bullet": 1,
+        "time": 0
+      }
+    ]
+  },
+  {
+    "id": 10001005,
+    "group_id": 10001,
+    "skill_lv": 5,
+    "upgrade_consume": [
+      {
+        "item": 1,
+        "Number": 100
+      },
+      {
+        "item": 2,
+        "Number": 100
+      }
+    ],
+    "skill_consume": {
+      "property": 1,
+      "value": 100
+    },
+    "skill_cd": 0.3,
+    "skill_count": 5,
+    "skill_range": 500,
+    "skill_type": 1,
+    "skill_animation": "",
+    "skill_time": 0,
+    "skill_priority": 1,
+    "skill_target": 1,
+    "harm_type": 2,
+    "harm_property": 3,
+    "harm_coefficient": 10000,
+    "harm_number": 10,
+    "skill_bullet": [
+      {
+        "bullet": 1,
+        "time": 0
+      }
+    ]
+  }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "property_id": 1,
+    "type": 0,
+    "maximum": 2100000000,
+    "score": 1
+  },
+  {
+    "property_id": 2,
+    "type": 0,
+    "maximum": 2100000000,
+    "score": 0
+  },
+  {
+    "property_id": 3,
+    "type": 0,
+    "maximum": 2100000000,
+    "score": 34
+  },
+  {
+    "property_id": 4,
+    "type": 0,
+    "maximum": 2100000000,
+    "score": 35
+  },
+  {
+    "property_id": 5,
+    "type": 0,
+    "maximum": 2100000000,
+    "score": 35
+  },
+  {
+    "property_id": 6,
+    "type": 0,
+    "maximum": 2100000000,
+    "score": 12
+  },
+  {
+    "property_id": 7,
+    "type": 0,
+    "maximum": 2100000000,
+    "score": 12
+  },
+  {
+    "property_id": 8,
+    "type": 0,
+    "maximum": 2100000000,
+    "score": 12
+  },
+  {
+    "property_id": 9,
+    "type": 0,
+    "maximum": 2100000000,
+    "score": 12
+  },
+  {
+    "property_id": 10,
+    "type": 0,
+    "maximum": 2100000000,
+    "score": 0
+  },
+  {
+    "property_id": 11,
+    "type": 0,
+    "maximum": 2100000000,
+    "score": 0
+  },
+  {
+    "property_id": 12,
+    "type": 0,
+    "maximum": 2100000000,
+    "score": 0
+  },
+  {
+    "property_id": 13,
+    "type": 0,
+    "maximum": 2100000000,
+    "score": 0
+  },
+  {
+    "property_id": 14,
+    "type": 0,
+    "maximum": 200,
+    "score": 0
+  },
+  {
+    "property_id": 15,
+    "type": 0,
+    "maximum": 1,
+    "score": 0
+  },
+  {
+    "property_id": 101,
+    "type": 1,
+    "maximum": 10000,
+    "score": 0
+  },
+  {
+    "property_id": 102,
+    "type": 1,
+    "maximum": 10000,
+    "score": 0
+  },
+  {
+    "property_id": 103,
+    "type": 1,
+    "maximum": 10000,
+    "score": 0
+  },
+  {
+    "property_id": 104,
+    "type": 1,
+    "maximum": 10000,
+    "score": 0
+  },
+  {
+    "property_id": 105,
+    "type": 1,
+    "maximum": 10000,
+    "score": 0
+  },
+  {
+    "property_id": 106,
+    "type": 1,
+    "maximum": 10000,
+    "score": 0
+  },
+  {
+    "property_id": 107,
+    "type": 1,
+    "maximum": 10000,
+    "score": 0
+  },
+  {
+    "property_id": 108,
+    "type": 1,
+    "maximum": 10000,
+    "score": 0
+  },
+  {
+    "property_id": 109,
+    "type": 1,
+    "maximum": 10000,
+    "score": 0
+  },
+  {
+    "property_id": 110,
+    "type": 1,
+    "maximum": 10000,
+    "score": 0
+  },
+  {
+    "property_id": 111,
+    "type": 1,
+    "maximum": 10000,
+    "score": 0
+  },
+  {
+    "property_id": 112,
+    "type": 2,
+    "maximum": 2100000000,
+    "score": 0
+  },
+  {
+    "property_id": 113,
+    "type": 2,
+    "maximum": 2100000000,
+    "score": 0
+  }
+]

@@ -1,0 +1,9 @@
+[submodule "protobuf/pb"]
+	path = protobuf/pb
+	url = ssh://git@10.0.0.103:3022/sdxx/protobuf.git
+[submodule "tools"]
+	path = tools
+	url = ssh://git@10.0.0.103:3022/sdxx/server-tool.git
+[submodule "configs"]
+	path = configs
+	url = ssh://git@10.0.0.103:3022/sdxx/config.git

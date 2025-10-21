@@ -1,0 +1,63 @@
+# https://taskfile.dev
+
+version: '3'
+
+vars:
+  BIN_DIR: '{{ joinPath .ROOT_DIR "tools" "bin" (printf "%s_%s" OS ARCH) }}'
+  LUBAN_DLL: '{{ joinPath "configs" "Tools" "Luban" "Luban.dll" }}'
+  CONF_ROOT: '{{ joinPath "configs" "DataTables" }}'
+  TMP_DIR: '{{ joinPath .ROOT_DIR "tools" "goctl" "template" }}'
+  GOCTL_FLAGS: '--style goZero --home {{ .TMP_DIR }}'
+
+env:
+  PATH: '{{ .BIN_DIR }}:{{ .PATH }}'
+
+tasks:
+  pb:
+    desc: gen pb
+    dir: protobuf
+    cmds:
+      - buf generate
+    silent: true
+
+  platform-model:
+    desc: "gen mysql model for platform db"
+    vars:
+      MODEL_DIR: '{{ joinPath "internal" "dao" "mysql" "platform" "model" }}'
+    cmds:
+      - |
+        goctl model mysql datasource \
+          --url 'root:qwe123@tcp(mysql.sdxx:3306)/platform' \
+          --dir {{ .MODEL_DIR }} \
+          --table '*' \
+          {{ .GOCTL_FLAGS }}
+      - goimports -w {{ .MODEL_DIR }}
+    silent: true
+
+  game-model:
+    desc: "gen mysql model for game db"
+    vars:
+      MODEL_DIR: '{{ joinPath "internal" "dao" "mysql" "game" "model" }}'
+    cmds:
+      - |
+        goctl model mysql datasource \
+          --url 'root:qwe123@tcp(mysql.sdxx:3306)/game' \
+          --dir {{ .MODEL_DIR }} \
+          --table '*' \
+          {{ .GOCTL_FLAGS }}
+      - goimports -w {{ .MODEL_DIR }}
+    silent: true
+
+  config:
+    desc: gen config
+    cmds:
+      - |
+        dotnet {{ .LUBAN_DLL }} \
+          -t server \
+          -c go-json \
+          -d json \
+          --conf {{ .CONF_ROOT }}/luban.conf \
+          -x outputCodeDir=internal/config/gen \
+          -x outputDataDir=data \
+          -x lubanGoModule=demo/luban
+    silent: true

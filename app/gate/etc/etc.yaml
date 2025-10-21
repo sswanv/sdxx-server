@@ -1,0 +1,96 @@
+pid: ./run/gate.pid
+mode: debug
+timezone: Local
+shutdownMaxWaitTime: 30s
+
+log:
+  level: debug
+  stackLevel: error
+  timeFormat: 2006/01/02 15:04:05.000000
+  callSkip: 2
+  callFullPath: true
+  terminals:
+    - console
+    - file
+  console:
+    format: text
+  file:
+    path: ./log/due.log
+    format: text
+    maxAge: 7d
+    maxSize: 100M
+    rotate: day
+    compress: false
+
+packet:
+  byteOrder: big
+  routeBytes: 4
+  seqBytes: 4
+  bufferBytes: 5000
+  heartbeatTime: true
+
+cluster:
+  gate:
+    id: ""
+    name: gate
+    timeout: 3s
+
+locate:
+  redis:
+    addrs:
+      - redis.sdxx:6379
+    db: 0
+    username: ""
+    password: qwe123
+    maxRetries: 3
+    prefix: due:locate
+
+registry:
+  nacos:
+    urls:
+      - http://nacos.sdxx:8848/nacos
+    clusterName: DEFAULT
+    groupName: DEFAULT_GROUP
+    timeout: 3s
+    namespaceId: dev
+    endpoint: ""
+    regionId: ""
+    accessKey: ""
+    secretKey: ""
+    openKMS: false
+    cacheDir: ./run/nacos/naming/cache
+    username: ""
+    password: ""
+    logDir: ./run/nacos/naming/log
+    logLevel: info
+
+network:
+  ws:
+    server:
+      addr: :3533
+      path: /
+      maxConnNum: 5000
+      keyFile: ""
+      certFile: ""
+      origins:
+        - "*"
+      handshakeTimeout: 10s
+      heartbeatInterval: 10s
+      heartbeatMechanism: resp
+      authorizeTimeout: 3s
+
+jwt:
+  default:
+    issuer: sdxx
+    validDuration: 604800
+    refreshDuration: 604800
+    secretKey: sWvPLvrXnYuSpq8NIVfRoISEHRVKS5ZO
+    identityKey: uid
+    locations: query:token
+    store:
+      addrs:
+        - redis.sdxx:6379
+      db: 3
+      username: ""
+      password: qwe123
+      maxRetries: 3
