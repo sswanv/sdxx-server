@@ -1,0 +1,95 @@
+syntax = "proto3";
+
+package web.v1;
+
+import "google/api/annotations.proto";
+import "google/protobuf/timestamp.proto";
+
+service WebService {
+  rpc GetTimestamp(GetTimestampReq) returns (GetTimestampResp) {
+    option (google.api.http) = {
+      post: "/get-timestamp"
+      body: "*"
+    };
+  }
+
+  rpc GetServerList(GetServerListReq) returns (GetServerListResp) {
+    option (google.api.http) = {
+      post: "/get-server-list"
+      body: "*"
+    };
+  }
+
+  rpc SendMobileCode(SendMobileCodeReq) returns (SendMobileCodeResp) {
+    option (google.api.http) = {
+      post: "/send-mobile-code"
+      body: "*"
+    };
+  }
+
+  rpc MobileLogin(MobileLoginReq) returns (MobileLoginResp) {
+    option (google.api.http) = {
+      post: "/mobile-login"
+      body: "*"
+    };
+  }
+
+  rpc RefreshToken(RefreshTokenReq) returns (RefreshTokenResp) {
+    option (google.api.http) = {
+      post: "/refresh-token"
+      body: "*"
+    };
+  }
+}
+
+// ---------------------------------------------------------------
+
+enum ServerStatus {
+  SERVER_STATUS_UNSPECIFIED = 0;
+  SERVER_STATUS_OPEN = 1; // 正常开放
+  SERVER_STATUS_MAINTENANCE = 2; // 维护中
+  SERVER_STATUS_BUSY = 3; // 爆满
+}
+
+// ------------------------- 请求/响应消息 -------------------------
+
+message GetTimestampReq {}
+message GetTimestampResp {
+  google.protobuf.Timestamp timestamp = 1;
+}
+
+message GetServerListReq {}
+message GetServerListResp {
+  message Server {
+    int32 id = 1; // id
+    string name = 2; // 名称
+    string addr = 3; // 连接地址
+    ServerStatus status = 4; // 状态
+  }
+  repeated Server servers = 1; // 服务器列表
+}
+
+message SendMobileCodeReq {
+  string mobile = 1; // 手机号
+}
+message SendMobileCodeResp {}
+
+message MobileLoginReq {
+  string mobile = 1; // 手机号
+  string device_type = 2; // 设备类型(ios|android|web)
+  string device_id = 3; // 设备id
+}
+message MobileLoginResp {
+  string access_token = 1; // 访问凭据
+  google.protobuf.Timestamp access_expire = 2; // 过期时间
+  google.protobuf.Timestamp refresh_after = 3; // 刷新时间
+}
+
+message RefreshTokenReq {
+  string access_token = 1; // 访问凭据
+}
+message RefreshTokenResp {
+  string access_token = 1; // 访问凭据
+  google.protobuf.Timestamp access_expire = 2; // 过期时间
+  google.protobuf.Timestamp refresh_after = 3; // 刷新时间
+}

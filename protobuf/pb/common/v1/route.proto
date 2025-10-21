@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package common.v1;
+
+import "common/v1/types.proto";
+
+enum Route {
+  ROUTE_UNSPECIFIED = 0; // 无效路由
+  ROUTE_REMOTE_LOGIN_NOTIFY = 1; // 异地登录通知
+  ROUTE_PLAYER_ITEM_CHANGE_NOTIFY = 2; // 玩家道具变动
+  ROUTE_PLAYER_ASSET_CHANGE_NOTIFY = 3; // 玩家资产变动
+}
+
+message RoutePlayerItemChangeNotify {
+  repeated ItemStack items = 1; // 道具列表
+}
+
+message RoutePlayerAssetChangeNotify {
+  repeated ItemStack assets = 1; // 资产列表
+}

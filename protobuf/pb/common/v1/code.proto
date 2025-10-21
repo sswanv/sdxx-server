@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+package common.v1;
+
+import "plugin/options/codes.proto";
+
+option (plugin.options.gen_go_code) = true;
+
+enum Code {
+  OK = 0; // 成功
+  CANCELED = 1; // 已取消
+  UNKNOWN = 2; // 未知错误
+  INVALID_ARGUMENT = 3; // 无效参数
+  DEADLINE_EXCEEDED = 4; // 操作超时
+  NOT_FOUND = 5; // 未找到资源
+  INTERNAL_ERROR = 6; // 服务器内部错误
+  UNAUTHORIZED = 7; // 未授权
+  ILLEGAL_INVOKE = 8; // 非法调用
+  ILLEGAL_REQUEST = 9; // 非法请求
+  TOO_MANY_REQUESTS = 10; // 请求过于频繁
+  MESSAGE_DECODING_FAILED = 40; // 消息解码四海镖
+
+  TOKEN_EXPIRED = 100; // token过期
+  TOKEN_INVALID = 101; // token无效
+  TOKEN_MISSING = 102; // token缺失
+  ACCOUNT_DATA_ABNORMAL = 103; // 账户数据异常
+  ACCOUNT_NOT_REGISTERED = 104; // 账户未注册
+  ACCOUNT_DISABLED = 105; // 账号已禁用
+}

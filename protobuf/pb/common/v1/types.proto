@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+package common.v1;
+
+// 物品堆叠
+message ItemStack {
+  uint64 item_id = 1; // 物品id
+  uint64 count = 2; // 数量
+}
+
+// 角色/装备属性
+message Attr {
+  uint32 id = 1; // 属性id
+  uint64 value = 2; // 属性数值
+}
+
+// 装备
+message Equipment {
+  uint64 cfg_id = 1; // 配置id
+  uint64 unique_id = 2; // 装备唯一id
+  uint32 position = 3; // 位置
+  map<uint32, Attr> attrs = 4; // 基础属性
+}
+
+// 道具
+message Item {
+  uint64 item_id = 1; // 物品id
+  uint64 count = 2; // 数量
+}

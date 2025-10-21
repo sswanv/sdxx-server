@@ -1,0 +1,37 @@
+// protobuf/pb/gm/v1/gm.proto
+syntax = "proto3";
+
+package gm.v1;
+
+enum Route {
+  ROUTE_UNSPECIFIED = 0;
+  ROUTE_EXECUTE_COMMAND = 1; // 执行GM命令
+  ROUTE_GET_COMMANDS = 2; // 获取可用命令列表
+}
+
+service GmService {
+  rpc ExecuteCommand(ExecuteCommandReq) returns (ExecuteCommandResp);
+  rpc GetCommands(GetCommandsReq) returns (GetCommandsResp);
+}
+
+// 执行命令请求
+message ExecuteCommandReq {
+  string command = 1; // 命令名称
+  string args = 2; // 空格分隔的参数
+}
+
+// 执行命令响应
+message ExecuteCommandResp {}
+
+// 获取命令列表请求
+message GetCommandsReq {}
+
+// 获取命令列表响应
+message GetCommandsResp {
+  message Command {
+    string name = 1; // 命令名称
+    string description = 2; // 命令描述
+    string usage = 3; // 命令使用说明
+  }
+  repeated Command commands = 1; // 命令列表
+}

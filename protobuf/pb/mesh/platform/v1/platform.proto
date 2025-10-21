@@ -1,0 +1,78 @@
+syntax = "proto3";
+
+package mesh.platform.v1;
+
+import "google/protobuf/timestamp.proto";
+
+service PlatformService {
+  rpc GetServerList(GetServerListReq) returns (GetServerListResp); // 获取服务器列表
+  rpc Register(RegisterReq) returns (RegisterResp); // 注册账户
+  rpc Login(LoginReq) returns (LoginResp); // 登录账号
+  rpc RefreshToken(RefreshTokenReq) returns (RefreshTokenResp); // 刷新token
+  rpc ValidateToken(ValidateTokenReq) returns (ValidateTokenResp); // 验证Token
+}
+
+// ---------------------------------------------------------------
+
+enum ServerStatus {
+  SERVER_STATUS_UNSPECIFIED = 0;
+  SERVER_STATUS_OPEN = 1; // 正常开放
+  SERVER_STATUS_MAINTENANCE = 2; // 维护中
+  SERVER_STATUS_BUSY = 3; // 爆满
+}
+
+// ------------------------- 请求/响应消息 -------------------------
+
+message GetServerListReq {}
+message GetServerListResp {
+  message Server {
+    int32 id = 1; // id
+    string name = 2; // 名称
+    string addr = 3; // 连接地址
+    ServerStatus status = 4; // 状态
+  }
+  repeated Server servers = 1; // 服务器列表
+}
+
+message RegisterReq {
+  int32 channel = 1; // 渠道id
+  string identifier = 2; // 身份标识
+  string credential = 3; // 凭证
+  string device_type = 4; // 设备类型
+  string device_id = 5; // 设备标识
+  string client_ip = 6; // 客户端ip
+}
+message RegisterResp {
+  bool is_newly_registered = 1; // 本次是否注册
+}
+
+message LoginReq {
+  int32 channel = 1; // 渠道id
+  string identifier = 2; // 身份标识
+  string credential = 3; // 凭证
+  string device_type = 4; // 设备类型
+  string device_id = 5; // 设备标识
+  string client_ip = 6; // 客户端ip
+}
+
+message LoginResp {
+  string access_token = 1; // 访问凭据
+  google.protobuf.Timestamp access_expire = 2; // 过期时间
+  google.protobuf.Timestamp refresh_after = 3; // 刷新时间
+}
+
+message RefreshTokenReq {
+  string access_token = 1; // 访问凭据
+}
+message RefreshTokenResp {
+  string access_token = 1; // 访问凭据
+  google.protobuf.Timestamp access_expire = 2; // 过期时间
+  google.protobuf.Timestamp refresh_after = 3; // 刷新时间
+}
+
+message ValidateTokenReq {
+  string access_token = 1; // 访问凭据
+}
+message ValidateTokenResp {
+  uint64 account_id = 1; // 账号id
+}

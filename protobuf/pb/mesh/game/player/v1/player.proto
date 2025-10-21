@@ -1,0 +1,48 @@
+syntax = "proto3";
+
+package mesh.game.player.v1;
+
+import "common/v1/types.proto";
+
+service PlayerService {
+  rpc EnsurePlayer(EnsurePlayerReq) returns (EnsurePlayerResp); // 确保玩家存在
+  rpc GetProfile(GetProfileReq) returns (GetProfileResp); // 获取玩家资料
+  rpc GetAttrs(GetAttrsReq) returns (GetAttrsResp); // 获取玩家属性
+}
+
+// ---------------------------------------------------------------
+
+message Player {
+  uint64 account_id = 1; // 账户id
+  uint64 server_id = 2; // 服务器id
+}
+
+// ------------------------- 请求/响应消息 -------------------------
+
+message EnsurePlayerReq {
+  uint64 account_id = 1; // 账户id
+  uint64 server_id = 2; // 服务器id
+}
+message EnsurePlayerResp {
+  uint64 player_id = 1; // 玩家id
+}
+
+message GetProfileReq {
+  uint64 player_id = 1; // 玩家id
+}
+message GetProfileResp {
+  string nickname = 1; // 名称
+  string avatar = 2; // 头像
+  uint64 level = 3; // 等级
+  repeated common.v1.ItemStack assets = 4; // 资产
+}
+
+message GetAttrsReq {
+  uint64 player_id = 1; // 玩家id
+}
+message GetAttrsResp {
+  map<uint32, common.v1.Attr> attrs = 1; // 总属性
+  map<uint32, common.v1.Attr> base_attrs = 2; // 基础属性
+  map<uint32, common.v1.Attr> equipment_attrs = 3; // 装备属性
+  repeated common.v1.Equipment equipments = 10; // 装备列表
+}

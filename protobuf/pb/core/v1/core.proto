@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package core.v1;
+
+import "google/protobuf/any.proto";
+
+message Response {
+  int32 code = 1; // 错误码
+  string msg = 2; // 错误描述
+  google.protobuf.Any data = 3; // 任意类型数据
+}

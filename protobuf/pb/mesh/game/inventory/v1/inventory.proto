@@ -1,0 +1,51 @@
+syntax = "proto3";
+
+package mesh.game.inventory.v1;
+
+import "common/v1/types.proto";
+
+service InventoryService {
+  rpc AddItems(AddItemsReq) returns (AddItemsResp); // 批量添加道具
+  rpc GetPlayerAssets(GetPlayerAssetsReq) returns (GetPlayerAssetsResp); // 获取玩家资产背包
+  rpc GetPlayerItems(GetPlayerItemsReq) returns (GetPlayerItemsResp); // 获取玩家道具背包
+  rpc GetPlayerEquipments(GetPlayerEquipmentsReq) returns (GetPlayerEquipmentsResp); // 获取玩家装备背包
+  rpc GetPlayerEquipped(GetPlayerEquippedReq) returns (GetPlayerEquippedResp); // 获取已穿戴装备
+}
+
+// ---------------------------------------------------------------
+
+// ------------------------- 请求/响应消息 -------------------------
+
+message AddItemsReq {
+  uint64 player_id = 1; // 玩家id
+  repeated common.v1.ItemStack items = 2; // 物品列表
+}
+message AddItemsResp {}
+
+message GetPlayerAssetsReq {
+  uint64 player_id = 1; // 玩家id
+}
+message GetPlayerAssetsResp {
+  repeated common.v1.ItemStack assets = 1; // 玩家资产
+}
+
+message GetPlayerItemsReq {
+  uint64 player_id = 1; // 玩家id
+}
+message GetPlayerItemsResp {
+  repeated common.v1.Item items = 1; // 道具列表
+}
+
+message GetPlayerEquipmentsReq {
+  uint64 player_id = 1; // 玩家id
+}
+message GetPlayerEquipmentsResp {
+  repeated common.v1.Equipment equipments = 1; // 装备列表
+}
+
+message GetPlayerEquippedReq {
+  uint64 player_id = 1; // 玩家id
+}
+message GetPlayerEquippedResp {
+  repeated common.v1.Equipment equipments = 1; // 装备列表
+}
